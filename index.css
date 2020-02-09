@@ -1,0 +1,370 @@
+body {
+    font-family: "Raleway", sans-serif;
+    align-items: center;
+    background-image: url(https://www.uidownload.com/files/204/75/736/white-seamless-background-free-vector.jpg);
+    height:100%;
+    width:auto;
+}
+
+.body-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.title {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+
+.image-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px;   
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(logo.jpg);
+    border-radius: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 130px;
+    align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image2 {
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://mkblaw.co.uk/wp-content/uploads/FWM-Charity-Logos.jpg);
+    border-radius: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align: center;
+    margin-right: 130px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image3 {
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://www.europa-worldwide.com/wp-content/uploads/2019/06/CharityMontage.jpg);
+    border-radius: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.charity-input {
+    width: 60%;
+    font-size: 18px;
+    padding: 15px;
+    text-align: center;
+    align: center;
+    font-family: "Raleway", sans-serif;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px
+
+}
+
+.button {
+    width: 250px;
+    border-radius: 40px;
+    margin: 15px;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.charity1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.charity2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.mastercharity {
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.submit {
+    background-color: #a8bcffd3;
+}
+
+.random {
+    background-color: #a8bcffd3;
+}
+
+ul{
+    font-family: "Raleway", sans-serif;
+}
+
+p{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-family:"Raleway", sans-serif;
+}.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px
+
+}
+
+.button {
+    width: 250px;
+    border-radius: 40px;
+    margin: 15px;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.charity1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.charity2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.submit {
+    background-color: #a8bcffd3;
+}
+
+.random {
+    background-color: #a8bcffd3;
+}
+
+ul{
+    font-family: "Raleway", sans-serif;
+}
+
+p{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-family:"Raleway", sans-serif;
+}.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px
+
+}
+
+.button {
+    width: 250px;
+    border-radius: 40px;
+    margin: 15px;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.charity1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.charity2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.submit {
+    background-color: #a8bcffd3;
+}
+
+.random {
+    background-color: #a8bcffd3;
+}
+
+ul{
+    font-family: "Raleway", sans-serif;
+}
+
+p{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-family:"Raleway", sans-serif;
+}.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px
+
+}
+
+.button {
+    width: 250px;
+    border-radius: 40px;
+    margin: 15px;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.charity1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.charity2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.submit {
+    background-color: #a8bcffd3;
+}
+
+.random {
+    background-color: #a8bcffd3;
+}
+
+ul{
+    font-family: "Raleway", sans-serif;
+}
+
+p{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-family:"Raleway", sans-serif;
+}.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px
+
+}
+
+.button {
+    width: 250px;
+    border-radius: 40px;
+    margin: 15px;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.charity1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.charity2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.submit {
+    background-color: #a8bcffd3;
+}
+
+.random {
+    background-color: #a8bcffd3;
+}
+
+ul{
+    font-family: "Raleway", sans-serif;
+}
+
+p{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-family:"Raleway", sans-serif;
+}

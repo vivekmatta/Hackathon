@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Find Charities</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111;
+    }
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="popular.html">Popular Charities</a></li>
+    <li><a href="donate.html">Donate</a></li>
+    <li><a href="game.html">Game</a></li>
+  </ul>
+  <div class="title">Welcome to Charity Finder!</div>
+  <div class="image-div">
+    <div class="image2" id="charity-image2"></div>
+    <div class="image" id="charity-image"></div>
+    <div class="image3" id="charity-image3"></div>
+  </div>
+  <div class="input-button">
+    <input class="charity-input" id="charity-name" />
+    <div class="button-container">
+      <div class="button submit" onclick="getSpecificCharity()">Find Charity</div>
+      <div class="button random" onclick="getRandomCharity()">Random Charity</div>
+    </div>
+  </div>
+  <div class="mastercharity">
+  <div class="charity1">
+    <div id="websitelink"> </div>
+  </div>
+  <div class="charity2">
+    <div id="foundcharity"> </div>
+  </div>
+  <script src="index.js"></script>
+  </div>
+</body>
+
+</html>
