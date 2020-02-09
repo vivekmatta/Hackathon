@@ -1,0 +1,110 @@
+body {
+    font-family: "Raleway", sans-serif;
+    align-items: center;
+    background-image: url(https://www.uidownload.com/files/204/75/736/white-seamless-background-free-vector.jpg);
+}
+
+.flexParent {
+    display: flex;
+  }
+  
+  .child {
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+
+.title {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-top: 50px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(IMG_1642.jpg);
+    border-radius: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+    margin-right: 40px;
+    align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image2 {
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(josh.jpg);
+    border-radius: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align: center;
+    margin-left: 50px;
+    margin-right: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image3 {
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(kevin.jpg);
+    border-radius: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 40px;
+    align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image4 {
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(ra.jpg);
+    border-radius: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 40px;
+    align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image5 {
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(alex.jpg);
+    border-radius: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 40px;
+    align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p{
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}

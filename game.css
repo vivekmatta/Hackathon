@@ -1,0 +1,43 @@
+body {
+    font-family: "Raleway", sans-serif;
+    align-items: center;
+    background-image: url(https://www.uidownload.com/files/204/75/736/white-seamless-background-free-vector.jpg);
+    height:100%;
+    width:auto;
+}
+
+.title1 {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-size: 50px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+} 
+
+.body-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+button {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+    border-radius: 40px;
+    margin: 0 auto;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+h1{
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
